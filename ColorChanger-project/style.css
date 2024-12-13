@@ -1,0 +1,49 @@
+*{
+     margin: 0;
+     padding: 0;
+
+}
+.container{
+     display: flex;
+     width: 100vw;
+     height: 100vh;
+     background-color: #e4d3d3;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+h1{
+     color: rgb(250, 41, 41);
+}
+h4{
+     color: rgb(31, 172, 219);
+}
+.box{
+     height: 150px;
+     width: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+span{
+     height: 70px;
+     width: 70px;
+     border: 1px solid gray;
+     display: flex;
+     margin-right: 10px;
+}
+#grey{
+     background-color: gray;
+}
+#red{
+     background-color: red;
+}
+#white{
+     background-color: #fff;
+}
+#blue{
+     background-color: blue;
+}
+#yellow{
+     background-color: yellow;
+}
